@@ -9,6 +9,10 @@ This project somehow didn't work in the real time system, so I developed  cnn mo
 
  The topic is 
  ##  Building CNN Algorithm on American Sign Language Dataset
+ 
+ ## Process
+ ![image](https://github.com/Prayag-Chawla/Object-Detection-/assets/92213377/4fca1262-d529-4caf-965f-a094dd7357a2)
+
 
 ## Computer Vision
 Computer vision is a field of computer science that focuses on enabling computers to identify and understand objects and people in images and videos. Like other types of AI, computer vision seeks to perform and automate tasks that replicate human capabilities.
@@ -16,6 +20,8 @@ Computer vision is a field of computer science that focuses on enabling computer
 
 ## CNN
  In deep learning, a convolutional neural network (CNN/ConvNet) is a class of deep neural networks, most commonly applied to analyze visual imagery. Now when we think of a neural network we think about matrix multiplications but that is not the case with ConvNet. It uses a special technique called Convolution. Now in mathematics convolution is a mathematical operation on two functions that produces a third function that expresses how the shape of one is modified by the other.
+![image](https://github.com/Prayag-Chawla/Object-Detection-/assets/92213377/8b94467e-9698-4b67-9e75-9701f66f9d10)
+![image](https://github.com/Prayag-Chawla/Object-Detection-/assets/92213377/ddf5c564-8318-41b6-a3c1-2699f6a0b981)
 
 
 Before we go to the working of CNN’s let’s cover the basics such as what is an image and how is it represented. An RGB image is nothing but a matrix of pixel values having three planes whereas a grayscale image is the same but it has a single plane. Take a look at this image to understand more.
@@ -34,6 +40,7 @@ Convolutional neural networks are composed of multiple layers of artificial neur
 
 ## OpenCV
 OpenCV is a Python library that allows you to perform image processing and computer vision tasks. It provides a wide range of features, including object detection, face recognition, and tracking.
+
 
 
 ## Model used
@@ -61,10 +68,15 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
 
 
 ## Accuracy
+![image](https://github.com/Prayag-Chawla/Object-Detection-/assets/92213377/3b23fb7a-b8c7-4f1b-973f-ee418bf77bea)
 
 
 
 
+## Output
+![image](https://github.com/Prayag-Chawla/Object-Detection-/assets/92213377/72a41715-c597-4620-a6ed-d69944bb7702)
+![image](https://github.com/Prayag-Chawla/Object-Detection-/assets/92213377/dcf8992a-ba01-4143-8f60-9f32c99f5a6d)
+![image](https://github.com/Prayag-Chawla/Object-Detection-/assets/92213377/64bfd6d8-e777-4ed5-a4aa-b76caaa72d91)
 
 
 ## Run Locally
